@@ -1,0 +1,404 @@
+[
+    {
+        "name": "Chilli",
+        "cost": "4",
+        "ingredients": [
+            {
+                "name": "onion",
+                "quantity": "1"
+            },
+            {
+                "name": "tinned tomato",
+                "quantity": "1"
+            },
+            {
+                "name": "rice",
+                "quantity": "100"
+            },
+            {
+                "name": "carrots",
+                "quantity": "80"
+            },
+            {
+                "name": "kidney beans",
+                "quantity": "1"
+            }
+        ],
+        "tags": ["rice", "beans"]
+    },
+    {
+        "name": "Stir Fry",
+        "cost": "3",
+        "ingredients": [
+            {
+                "name": "noodles",
+                "quantity": "200"
+            },
+            {
+                "name": "carrots",
+                "quantity": "50"
+            },
+            {
+                "name": "mushrooms",
+                "quantity": "250"
+            },
+            {
+                "name": "peas",
+                "quantity": "100"
+            },
+            {
+                "name": "broccoli",
+                "quantity": "100"
+            },
+            {
+                "name": "tofu",
+                "quantity": "300"
+            }
+        ],
+        "tags": ["noodles", "tofu"]
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "cost": "5",
+        "ingredients": [
+            {
+                "name": "ground beef",
+                "quantity": "300",
+                "unit": "grams"
+            },
+            {
+                "name": "onion",
+                "quantity": "1"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2",
+                "unit": "cloves"
+            },
+            {
+                "name": "tomato sauce",
+                "quantity": "1",
+                "unit": "jar"
+            },
+            {
+                "name": "spaghetti",
+                "quantity": "200",
+                "unit": "grams"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "2",
+                "unit": "tablespoons"
+            }
+        ],
+        "tags": ["pasta", "beef"]
+    },
+    {
+        "name": "Chicken Stir Fry",
+        "cost": "6",
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "quantity": "400",
+                "unit": "grams"
+            },
+            {
+                "name": "broccoli",
+                "quantity": "1",
+                "unit": "head"
+            },
+            {
+                "name": "soy sauce",
+                "quantity": "3",
+                "unit": "tablespoons"
+            },
+            {
+                "name": "garlic",
+                "quantity": "1",
+                "unit": "clove"
+            },
+            {
+                "name": "ginger",
+                "quantity": "1",
+                "unit": "teaspoon",
+                "description": "grated"
+            },
+            {
+                "name": "vegetable oil",
+                "quantity": "2",
+                "unit": "tablespoons"
+            }
+        ],
+        "tags": ["chicken", "stir fry"]
+    },
+    {
+        "name": "Vegetarian Pizza",
+        "cost": "4",
+        "ingredients": [
+            {
+                "name": "pizza dough",
+                "quantity": "1",
+                "unit": "ball"
+            },
+            {
+                "name": "tomato sauce",
+                "quantity": "0.5",
+                "unit": "cup"
+            },
+            {
+                "name": "mozzarella cheese",
+                "quantity": "200",
+                "unit": "grams"
+            },
+            {
+                "name": "bell peppers",
+                "quantity": "2",
+                "unit": "pieces",
+                "description": "sliced"
+            },
+            {
+                "name": "red onion",
+                "quantity": "1",
+                "unit": "piece",
+                "description": "sliced"
+            },
+            {
+                "name": "olives",
+                "quantity": "0.5",
+                "unit": "cup",
+                "description": "sliced"
+            }
+        ],
+        "tags": ["pizza", "vegetarian"]
+    },
+    {
+        "name": "Salmon Teriyaki",
+        "cost": "8",
+        "ingredients": [
+            {
+                "name": "salmon fillet",
+                "quantity": "2",
+                "unit": "pieces"
+            },
+            {
+                "name": "soy sauce",
+                "quantity": "4",
+                "unit": "tablespoons"
+            },
+            {
+                "name": "mirin",
+                "quantity": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "name": "brown sugar",
+                "quantity": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "name": "garlic",
+                "quantity": "2",
+                "unit": "cloves",
+                "description": "minced"
+            },
+            {
+                "name": "ginger",
+                "quantity": "1",
+                "unit": "tablespoon",
+                "description": "grated"
+            }
+        ],
+        "tags": ["seafood", "teriyaki"]
+    },
+    {
+        "name": "Vegetable Curry",
+        "cost": "5",
+        "ingredients": [
+            {
+                "name": "potatoes",
+                "quantity": "3",
+                "unit": "medium-sized",
+                "description": "cubed"
+            },
+            {
+                "name": "carrots",
+                "quantity": "2",
+                "unit": "pieces",
+                "description": "sliced"
+            },
+            {
+                "name": "bell peppers",
+                "quantity": "2",
+                "unit": "pieces",
+                "description": "sliced"
+            },
+            {
+                "name": "onion",
+                "quantity": "1",
+                "unit": "large",
+                "description": "chopped"
+            },
+            {
+                "name": "coconut milk",
+                "quantity": "1",
+                "unit": "can"
+            },
+            {
+                "name": "curry powder",
+                "quantity": "2",
+                "unit": "tablespoons"
+            }
+        ],
+        "tags": ["vegetarian", "curry"]
+    },
+    {
+        "name": "Caprese Salad",
+        "cost": "3",
+        "ingredients": [
+            {
+                "name": "tomatoes",
+                "quantity": "4",
+                "unit": "medium-sized",
+                "description": "sliced"
+            },
+            {
+                "name": "mozzarella cheese",
+                "quantity": "200",
+                "unit": "grams",
+                "description": "sliced"
+            },
+            {
+                "name": "fresh basil",
+                "quantity": "1",
+                "unit": "cup",
+                "description": "leaves"
+            },
+            {
+                "name": "balsamic glaze",
+                "quantity": "2",
+                "unit": "tablespoons"
+            },
+            {
+                "name": "olive oil",
+                "quantity": "2",
+                "unit": "tablespoons"
+            }
+        ],
+        "tags": ["salad", "Italian"]
+    },
+    {
+        "name": "Beef Tacos",
+        "cost": "7",
+        "ingredients": [
+            {
+                "name": "ground beef",
+                "quantity": "300",
+                "unit": "grams"
+            },
+            {
+                "name": "taco shells",
+                "quantity": "8",
+                "unit": "pieces"
+            },
+            {
+                "name": "cheddar cheese",
+                "quantity": "150",
+                "unit": "grams",
+                "description": "shredded"
+            },
+            {
+                "name": "tomatoes",
+                "quantity": "2",
+                "unit": "medium-sized",
+                "description": "diced"
+            },
+            {
+                "name": "lettuce",
+                "quantity": "1",
+                "unit": "head",
+                "description": "shredded"
+            },
+            {
+                "name": "sour cream",
+                "quantity": "1",
+                "unit": "cup"
+            }
+        ],
+        "tags": ["beef", "tacos"]
+    },
+    {
+        "name": "Mushroom Risotto",
+        "cost": "6",
+        "ingredients": [
+            {
+                "name": "arborio rice",
+                "quantity": "1",
+                "unit": "cup"
+            },
+            {
+                "name": "mushrooms",
+                "quantity": "200",
+                "unit": "grams",
+                "description": "sliced"
+            },
+            {
+                "name": "onion",
+                "quantity": "1",
+                "unit": "medium-sized",
+                "description": "chopped"
+            },
+            {
+                "name": "vegetable broth",
+                "quantity": "4",
+                "unit": "cups"
+            },
+            {
+                "name": "Parmesan cheese",
+                "quantity": "1/2",
+                "unit": "cup",
+                "description": "grated"
+            },
+            {
+                "name": "white wine",
+                "quantity": "1/2",
+                "unit": "cup"
+            }
+        ],
+        "tags": ["vegetarian", "risotto"]
+    },
+    {
+        "name": "Chicken Caesar Salad",
+        "cost": "5",
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "quantity": "2",
+                "unit": "pieces",
+                "description": "grilled and sliced"
+            },
+            {
+                "name": "romaine lettuce",
+                "quantity": "1",
+                "unit": "head",
+                "description": "torn into bite-sized pieces"
+            },
+            {
+                "name": "croutons",
+                "quantity": "1",
+                "unit": "cup"
+            },
+            {
+                "name": "Parmesan cheese",
+                "quantity": "1/2",
+                "unit": "cup",
+                "description": "shaved"
+            },
+            {
+                "name": "Caesar dressing",
+                "quantity": "1/2",
+                "unit": "cup"
+            }
+        ],
+        "tags": ["chicken", "salad"]
+    }
+]
