@@ -46,8 +46,8 @@ def choose_meals(recipes, pantry, previous_meals):
     if not isinstance(previous_meals, list):
         previous_meals = []
 
-    for _ in range(3): # Choose meals for each day of the week
-        # Filter out meals from previous week
+    for _ in range(7): # Choose meals for each day of the week
+        # Filter out meals from previous week and meals already chosen for the current week
         available_recipes = [recipe for recipe in recipes if recipe['name'] not in (previous_meals + current_meals)]
 
         # Calculate freshness factors for available ingredients
@@ -58,7 +58,7 @@ def choose_meals(recipes, pantry, previous_meals):
         probabilities = [factor / total_freshness for factor in freshness_factors]
 
         if not available_recipes:
-            break # No suitabl meal found for the remaining days
+            break # No suitable meal found for the remaining days
 
         chosen_meal = random.choices(available_recipes, probabilities)[0]
         
